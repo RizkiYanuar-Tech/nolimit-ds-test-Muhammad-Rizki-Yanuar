@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+Model/*.joblib filter=lfs diff=lfs merge=lfs -text
+Model/sentence_transformer/*.safetensors filter=lfs diff=lfs merge=lfs -text
