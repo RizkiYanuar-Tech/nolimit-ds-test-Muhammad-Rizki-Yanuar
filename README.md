@@ -13,7 +13,7 @@ Proyek ini merupakan implementasi *end-to-end pipeline* Natural Language Process
 ---
 
 ## 2. Flowchart
-[FlowChart NLP Sentiment Analysis]()
+![FlowChart NLP Sentiment Analysis](https://github.com/RizkiYanuar-Tech/nolimit-ds-test-Muhammad-Rizki-Yanuar/blob/7c5ca129d521bd3f0e4ec113a389a0913c72208b/flowchart%20nolimit-ds-test.drawio.png)
 
 ### Tahapan Load data & preprocessing:
 1. **Download Dataset:** Dataset di download dari kaggle dengan tipe file .csv
@@ -110,16 +110,13 @@ Jalankan semua sel secara berurutan
 ## 6. Hasil Evaluasi
 Model dievaluasi pada 20% data uji yang belum pernah dilihat sebelumnya.
 
-### Laporan Klasifikasi
-![classification_report](classification_report)
-
-### Akurasi Model
-![accuracy](accuracy)
+### Laporan Klasifikasi & Akurasi Model
+(![Classification Report & Accuracy Model](image.png))
 
 ### Confusion Matrix
-![confusion matrix](confusion_matrix)
+![Confusion Matrix](image-3.png)
 
 ## 7. Contoh Output
-![Label Positif]()
+![Label Positif](image-1.png)
 
-![Label Negatif]()
+![Label Negatif](image-2.png)

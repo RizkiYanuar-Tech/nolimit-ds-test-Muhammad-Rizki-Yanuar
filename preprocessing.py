@@ -51,8 +51,8 @@ def load_slang_dict():
         "thx": "terima kasih","seler": "penjual", "seller": "penjual", "paking": "kemasan", 
         "peking": "kemasan","langanan": "langganan", "buat": "untuk", "pokok e": "pokoknya", 
         "jos": "mantap", "pengriman": "pengiriman", "sih": " ", "gimana": "bagaimana", 
-        "gmn": "bagaimana", "apaan": "apa", "jlk": "jelek", "ih": " ", "nih": " ", "jd": "jadi",
-        "gk": "tidak", "bgt": "sangat", "banget": "sangat", "dong": " ", "lah": " ",
+        "gmn": "bagaimana", "apaan": "apa", "jlk": "jelek", "jd": "jadi",
+        "gk": "tidak", "bgt": "sangat", "banget": "sangat",
 
         # Emoji
         ":)": " senang ", ":(": " sedih "
