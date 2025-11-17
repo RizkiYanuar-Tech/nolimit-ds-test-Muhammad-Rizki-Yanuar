@@ -5,7 +5,7 @@ Proyek ini merupakan implementasi *end-to-end pipeline* Natural Language Process
 ## 1. Dataset
 * **Sumber:** Dataset yang digunakan berasal dari kaggle [Tokopedia Product Reviews](https://www.kaggle.com/datasets/farhan999/tokopedia-product-reviews)
 * **Kolom Dataset:**
- | Kolom | Tipe Data | Keterangan |
+| Kolom | Tipe Data | Keterangan |
 | :--- | :--- | :--- |
 | **text** | `string` | Teks ulasan yang ditulis oleh pelanggan. (Digunakan sebagai fitur/Input **X**) |
 | **rating** | `integer` | Nilai rating yang diberikan oleh pengulas (skala 1-5). (Digunakan untuk membuat **Label**) |
