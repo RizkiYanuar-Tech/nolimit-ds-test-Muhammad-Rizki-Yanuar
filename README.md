@@ -57,7 +57,7 @@ Repository dapat dijalankan menggunakan `venv` atau `conda`
 1. *Clone repository* ini:
    ```bash
    git clone [URL_REPO]
-   cd [NAM_FOLDER_REPO]
+   cd [NAMA_FOLDER_REPO]
    ```
 
 2. Buat dan aktifkan *virtual environment*:
@@ -101,9 +101,17 @@ Repository dapat dijalankan menggunakan `venv` atau `conda`
 ## 5. Cara Menjalankan
 Alur kerja dari *download dataset*, *load dataset*, *preprocessing*, *training*, dan *evaluasi* berada didalam *notebook* Jupyter:
 
-`nolimit-ds-test-Muhammad Rizki Yanuar.ipynb`
+`nolimit-ds-test-Muhammad Rizki Yanuar.ipynb` atau bisa akses lewat (https://colab.research.google.com/drive/1gjTPLvOaq48p1okoIHJ0A8v0vW--7TN_?usp=sharing)
 
 Jalankan semua sel secara berurutan
+
+## Cara Menjalankan 🚀 Streamlit
+setelah instalasi selesai dan environment diaktifkan, pastikan anda berada di direktori utama proyek yang berisikan app.py
+
+```bash
+   streamlit run app.py
+```
+Aplikasi streamlit akan berjalan otomatis di browser
 
 ---
 
