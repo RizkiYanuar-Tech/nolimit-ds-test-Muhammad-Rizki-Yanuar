@@ -43,10 +43,12 @@ Proyek ini merupakan implementasi *end-to-end pipeline* Natural Language Process
 Pada proyek ini digunakan dua model utama:
 1. Model Embedding (HuggingFace)
 *  Model: sentence-transfomers/paraphase-multilingual-MiniLM-L12-v2
+
 Model ini dipilih karena memiliki vocabulary untuk bahasa indonesia dan 50+ bahasa lain, berbeda dengan model all-MiniLM-L6-v2 yang khusus untuk bahasa inggris.
 
 2. Model Klasifikasi (Sklearn)
 *  Model: LogisticRegression
+
 Model ini dipilih karena cepat, efisien, dan bekerja dengan baik pada embedding berdimensi tinggi.
 
 ---
