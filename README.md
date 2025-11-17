@@ -4,6 +4,7 @@ Proyek ini merupakan implementasi *end-to-end pipeline* Natural Language Process
 
 ## 1. Dataset
 * **Sumber:** Dataset yang digunakan berasal dari kaggle [Tokopedia Product Reviews](https://www.kaggle.com/datasets/farhan999/tokopedia-product-reviews)
+  
 Deskripsi Kolom Dataset
 
 | Kolom | Tipe Data | Keterangan |
