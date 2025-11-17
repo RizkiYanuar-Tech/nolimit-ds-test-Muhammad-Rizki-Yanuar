@@ -4,7 +4,18 @@ Proyek ini merupakan implementasi *end-to-end pipeline* Natural Language Process
 
 ## 1. Dataset
 * **Sumber:** Dataset yang digunakan berasal dari kaggle [Tokopedia Product Reviews](https://www.kaggle.com/datasets/farhan999/tokopedia-product-reviews)
-* **Kolom Dataset:** 
+* **Kolom Dataset:**
+ | Kolom | Tipe Data | Keterangan |
+| :--- | :--- | :--- |
+| **text** | `string` | Teks ulasan yang ditulis oleh pelanggan. (Digunakan sebagai fitur/Input **X**) |
+| **rating** | `integer` | Nilai rating yang diberikan oleh pengulas (skala 1-5). (Digunakan untuk membuat **Label**) |
+| **category** | `string` | Kategori produk, seperti `fashion`, `elektronik`, `handphone`, dll. |
+| **product_name** | `string` | Nama lengkap produk. |
+| **product_id** | `string` | Pengenal unik untuk produk. |
+| **sold** | `integer` | Jumlah barang yang terjual. |
+| **shop_id** | `string` | Pengenal unik untuk toko/penjual. |
+| **product_url** | `string` | Tautan (URL) ke halaman produk. |
+
 * **Anotasi Label:** Dataset asli tidak memiliki label sentimen, sehingga label dibuat secara manual berdasarkan kolom `rating` (1-5) dengan ketentuan:
    * **positif** Rating 4 atau 5
    * **netral** Rating 3
